@@ -1,0 +1,62 @@
+<html lang="en"><head>
+    <audio autoplay loop>
+        <source src="ss.mp3" type="audio/mpeg">
+    </audio>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ori_ronsumbre-71231043-Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Selamat Datang</a>
+        
+        <nav class="navbar">
+            <a href="#" class="active">Rumah</a>
+            <a href="#">Keahlianku</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Halo, Saya Orikonba Fresli Ronsumbre</h1>
+            <h3>Mahasiswa <a href="https://www.ukdw.ac.id/profil/sejarah/">UKDW</a></h3>
+            <h5>Teknik Informatika Angkatan 23</h5>
+                <p>Saya berasal dari <a href="https://id.wikipedia.org/wiki/Pulau_Biak">Biak, Papua, Indonesia.</a></p>
+                    <ol>Skillset Pemrograman
+                        <li>HTML dan CSS</li>
+                        <li>Python</li>
+                    </ol>
+            <p></p>
+            <div class="btn-box">
+                <a href="#">Hai!</a>
+                <script>
+                    const bodyElement = document.body;
+                    const warnaList = ["red", "blue", "green", "white"];
+                
+                    function gantiWarnaRandom() {
+                        const randomIndex = Math.floor(Math.random() * warnaList.length);
+                        const warnaRandom = warnaList[randomIndex];
+                        bodyElement.style.backgroundColor = warnaRandom;
+                    }
+                    
+                    const tombolGantiWarna = document.createElement("button");
+                    tombolGantiWarna.textContent = "Ganti Warna";
+                    tombolGantiWarna.addEventListener("click", gantiWarnaRandom);
+                
+                    document.body.appendChild(tombolGantiWarna);
+            </script>
+                
+        <div class="home-sci">
+            <a href="https://www.facebook.com/ory.ronsumbre?mibextid=9R9pXO"><i class="bx bxl-facebook"></i></a>
+            <a href="https://wa.me/6282248313960"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://instagram.com/ori_ronsumbre?igshid=NGVhN2U2NjQ0Yg%3D%3D&amp;utm_source=qr"><i class="bx bxl-instagram"></i></a>
+        </div>
+    <span class="home-imgHover"></span>
+
+</body>
+</body></html>
